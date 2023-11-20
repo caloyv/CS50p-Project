@@ -1,5 +1,5 @@
 from sys import argv, exit
-from csv import DictWriter, DictReader, reader
+from csv import DictWriter, DictReader
 from tabulate import tabulate
 import os
 os.system("cls")
