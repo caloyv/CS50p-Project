@@ -133,7 +133,7 @@ def update(arg):
         for i in tasks:
             writer.writerow({"id": i["id"], "task": i["task"], "status": i["status"]})
     
-    print(f'\33[2;36mEdited ID({taskID}) to "{userInput}\033[0m')
+    print(f'\33[2;36mEdited ID({taskID}) to "{userInput}"\033[0m')
 
 
 
